@@ -12,3 +12,35 @@ h1{
   text-align: center;
   font-weight: 300;
 }
+h2{
+  font-size: 1.5em;
+  color: #33485e;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  background-color: #33485e;
+  font-weight: 400
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+h5{
+  font-size: 1em;
+  boldness: 400;
+  font-style: italic;
+}
+h6{
+  font-size: 1em;
+  boldness: 400;
+  font-style: italic;
+}
+ul {
+  font-size: 1em;
+}
+img {
+  /* Picture of me */
+}
