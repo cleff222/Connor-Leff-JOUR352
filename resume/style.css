@@ -1,10 +1,13 @@
+/* Main Style Sheet */
+
+/* Change Body Font */
 body {
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: 1em;
 color: #444;
 font-weight: 400;
 }
-
+/* Center Headings */
 h1{
   font-size: 3em;
   color: #33485e;
@@ -12,11 +15,13 @@ h1{
   text-align: center;
   font-weight: 300;
 }
+/* Small Headings */
 h2{
   font-size: 1.5em;
   color: #33485e;
   text-transform: uppercase;
 }
+/* Bold Small Header */
 h3{
   font-size: 1.5em;
   color: white;
@@ -24,23 +29,27 @@ h3{
   background-color: #33485e;
   font-weight: 400
 }
+/* Bolder Small Headline */
 h4 {
   font-size: 1.5em;
   font-weight: 600;
 }
+/* Italicized Small Header */
 h5{
   font-size: 1em;
   boldness: 400;
   font-style: italic;
 }
+/* Italicized Small Header */
 h6{
   font-size: 1em;
   boldness: 400;
   font-style: italic;
 }
+/* List Font */
 ul {
   font-size: 1em;
 }
+/* Image */
 img {
-  /* Picture of me */
 }
