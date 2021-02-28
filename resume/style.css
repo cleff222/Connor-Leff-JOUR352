@@ -31,33 +31,74 @@ h2 {
   color: white;
   text-transform: uppercase;
   background-color: #33485e;
-  font-weight: 400
+  font-weight: 400;
   margin: 20px 0 10px 0;
   width: 70%;
   min-width: 300px;
 }
 /* Bolder Small Headline */
-h4 {
-  font-size: 1.5em;
+.jobtitle{
+  font-size: 1.25em;
   font-weight: 600;
 }
 /* Italicized Small Header */
-h5{
+.organization{
   font-size: 1em;
   boldness: 400;
   font-style: italic;
 }
 /* Italicized Small Header */
-h6{
+.date{
   font-size: 1em;
   boldness: 400;
   font-style: italic;
+  margin: 2px 0 0 0;
 }
-/* List Font */
-ul {
+.description{
+  margin: 10px 0 10px 0;
+}
+.menu{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
   font-size: 1em;
 }
-/* Image */
-img {
-  /* Image */
+
+#degrees{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#d0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#title{
+  font-weight: 600;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding-bottom: 50px
+
 }
