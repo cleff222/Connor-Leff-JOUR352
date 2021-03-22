@@ -23,3 +23,20 @@ p {
   margin-right: auto;
   width: 50%;
 }
+
+h1 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  background-size: 100%;
+  font-weight: 400;
+  width: 100%;
+  min-width: 1200px;
