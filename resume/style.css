@@ -10,14 +10,14 @@ font-weight: 400;
 /* Center Headings */
 #name {
   font-size: 3em;
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 300;
-  border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  background-color: black;
+  width: 300px;
+  border: 5px white;
+  padding: 50px;
+  margin: 20px;
 }
 /* Small Headings */
 h2 {
@@ -100,5 +100,4 @@ h2 {
   margin-bottom: 0px;
   margin-top: 5px;
   padding-bottom: 50px
-
 }
