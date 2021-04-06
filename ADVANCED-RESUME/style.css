@@ -5,20 +5,14 @@
   width: 100%;
 }
 #LinkedIn {
-  position: absolute;
-    left: 450px;
   width: 8%;
 }
 #Twitter {
   width: 8%;
-  position: absolute;
-    left: 605px;
 }
 
 #Portfolio {
-    width: 8%;
-    position: absolute;
-      left: 755px;
+  width: 8%;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -72,9 +66,9 @@ font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   text-transform: uppercase;
   color: #FAF22D;
-}
-.navbar-brand {
-  color: white;
+  max-width: 1000px;
+  margin-bottom: 250px;
+  margin-top: 250px;
 }
 p {
   font-family: Georgia, sans-serif;
@@ -141,44 +135,28 @@ padding-bottom: 0px;
 #skillpic {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 50%;
   border-radius: 70%;
   border:5px solid white;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
   margin-bottom: 10px;
 }
-  #creativity {
-    font-size: 35px;
-    text-transform: none;
-    position:absolute;
-    top: 3050px;
-    left: 0px;
-    right: 90px;
-    bottom: 0px;
-    color: black;
+#skillpic2 {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 70%;
+    border:5px solid white;
+      -webkit-border-radius: 500px;
+      -moz-border-radius: 500px;
+    margin-bottom: 10px;
 }
-  #teamwork {
-    font-size: 35px;
-    text-transform: none;
-    position:absolute;
-    top: 3270px;
-    left: 0px;
-    right: 90px;
-    bottom: 0px;
-    color: black;
-  }
-#camera {
-  font-size: 35px;
-  text-transform: none;
-  position:absolute;
-  top: 3500px;
-  left: 0px;
-  right: 90px;
-  bottom: 0px;
-  color: black;
-}
+
 #copyright {
   font-size: 10px;
   text-align: right;
