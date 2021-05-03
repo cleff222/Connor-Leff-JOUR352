@@ -4,67 +4,74 @@
   margin-right: auto;
   margin-bottom: auto;
   width: 100%;
-  margin-bottom: 37px;
 }
 h1 {
-text-align: left;
+text-align: center;
 font-size: 6.5em;
-margin: 0 auto;
-width: 900px;
 font-family: 'Playball',cursive;
 color: #122D5F;
 }
 #explain {
 text-align: left;
 font-family: 'Playball', cursive;
-font-size: 2.0em;
+width: 1150px;
 margin: 0 auto;
-width: 900px;
-margin-top: 20px;
-margin-bottom: 20px;
+font-size: 2.3em;
+padding-bottom: 40px;
 color: #7A7D83;
 }
 #byline {
   font-family: 'Lato,' sans-serif;
+  font-size: 1.5em;
   font-style: italic;
   font-weight: bold;
+  width: 1150px;
   margin: 0 auto;
-  width: 900px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #122D5F;
 }
+
+.picture {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
 .title {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  width: 63%;
+  width: 100%;
   padding-bottom: 10px;
 }
+
+#caption {
+  font-family: 'Lato,' sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .captions {
   font-family: font-family: 'Lato,' sans-serif;
   font-size: 0.7em;
-  margin: 0 auto;
-  width: 900px;
   padding-bottom: 20px;
 }
 blockquote {
-  background: #122D5F;
   border-left: 10px solid #ccc;
-  margin: 0 auto;
-  width: 900px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
   font-family: 'Playball', cursive;
-  color: white;
-  font-size: 2.0em;
+  color: #122D5F;
+  font-size: 2.5em;
 }
 blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
+  font-size: 6em;
+  line-height: 0em;
   vertical-align: -0.4em;
 }
 blockquote p {
@@ -72,39 +79,57 @@ blockquote p {
 }
 
 p {
-  margin: 0 auto;
-  width: 900px;
   font-size: 1.0em;
   font-family: 'Lato,' sans-serif;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  line-height: 1.7em;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .text {
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 60%;
   padding-bottom: 20px;
-  padding-top: 20px;
-  word-wrap: break-word;
 }
 h4 {
     text-align: center;
     font-style: bold;
     padding-bottom: 20px;
   }
-#infographic {
-  display: block;
-  width: 900px;
-  margin: 0 auto;
 }
 .captions2 {
   font-family: font-family: 'Lato,' sans-serif;
-  font-size: 0.7em;
-  margin: 0 auto;
-  width: 900px;
+  font-size: 0.1em;
   padding-bottom: 20px;
   text-align: center;
 }
-#datawrapper-chart-AeNWv {
-    display: block;
-  }
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+.drop {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  font-size: 1.0em;
+  font-family: 'Lato,' sans-serif;
+  line-height: 1.7em;
+  padding-top: 10px;
+}
+.drop:first-letter {
+  float: left;
+  font-size: 7.0em;
+  line-height: 0.8;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+h3 {
+  font-family: 'Lato,' sans-serif;
+  text-align: center;
+  background-color: #122D5F;
+  color: #ccc;
+  height: 30px;
+  padding-top: 10px;
+}
