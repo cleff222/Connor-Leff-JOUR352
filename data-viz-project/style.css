@@ -108,6 +108,9 @@ h4 {
   margin: 0 auto;
   width: 900px;
 }
+.containter-fluid {
+  width:100%;
+}
 .drop {
   display: block;
   margin: 0 auto;
